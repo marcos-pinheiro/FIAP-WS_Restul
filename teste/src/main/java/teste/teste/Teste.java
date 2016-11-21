@@ -11,6 +11,8 @@ public class Teste implements java.io.Serializable
 
    private java.lang.Boolean xxx;
 
+   private java.lang.Boolean kll;
+
    public Teste()
    {
    }
@@ -25,9 +27,20 @@ public class Teste implements java.io.Serializable
       this.xxx = xxx;
    }
 
-   public Teste(java.lang.Boolean xxx)
+   public java.lang.Boolean getKll()
+   {
+      return this.kll;
+   }
+
+   public void setKll(java.lang.Boolean kll)
+   {
+      this.kll = kll;
+   }
+
+   public Teste(java.lang.Boolean xxx, java.lang.Boolean kll)
    {
       this.xxx = xxx;
+      this.kll = kll;
    }
 
 }
