@@ -9,22 +9,10 @@ public class Teste implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   private java.lang.Boolean kll;
-
    private java.math.BigInteger dsdfsd;
 
    public Teste()
    {
-   }
-
-   public java.lang.Boolean getKll()
-   {
-      return this.kll;
-   }
-
-   public void setKll(java.lang.Boolean kll)
-   {
-      this.kll = kll;
    }
 
    public java.math.BigInteger getDsdfsd()
@@ -37,9 +25,8 @@ public class Teste implements java.io.Serializable
       this.dsdfsd = dsdfsd;
    }
 
-   public Teste(java.lang.Boolean kll, java.math.BigInteger dsdfsd)
+   public Teste(java.math.BigInteger dsdfsd)
    {
-      this.kll = kll;
       this.dsdfsd = dsdfsd;
    }
 
