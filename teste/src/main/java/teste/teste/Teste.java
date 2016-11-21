@@ -11,6 +11,8 @@ public class Teste implements java.io.Serializable
 
    private java.lang.Boolean kll;
 
+   private java.math.BigInteger dsdfsd;
+
    public Teste()
    {
    }
@@ -25,9 +27,20 @@ public class Teste implements java.io.Serializable
       this.kll = kll;
    }
 
-   public Teste(java.lang.Boolean kll)
+   public java.math.BigInteger getDsdfsd()
+   {
+      return this.dsdfsd;
+   }
+
+   public void setDsdfsd(java.math.BigInteger dsdfsd)
+   {
+      this.dsdfsd = dsdfsd;
+   }
+
+   public Teste(java.lang.Boolean kll, java.math.BigInteger dsdfsd)
    {
       this.kll = kll;
+      this.dsdfsd = dsdfsd;
    }
 
 }
