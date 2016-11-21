@@ -9,22 +9,10 @@ public class Teste implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   private java.lang.Boolean xxx;
-
    private java.lang.Boolean kll;
 
    public Teste()
    {
-   }
-
-   public java.lang.Boolean getXxx()
-   {
-      return this.xxx;
-   }
-
-   public void setXxx(java.lang.Boolean xxx)
-   {
-      this.xxx = xxx;
    }
 
    public java.lang.Boolean getKll()
@@ -37,9 +25,8 @@ public class Teste implements java.io.Serializable
       this.kll = kll;
    }
 
-   public Teste(java.lang.Boolean xxx, java.lang.Boolean kll)
+   public Teste(java.lang.Boolean kll)
    {
-      this.xxx = xxx;
       this.kll = kll;
    }
 
