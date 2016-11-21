@@ -11,6 +11,8 @@ public class Teste implements java.io.Serializable
 
    private java.math.BigInteger dsdfsd;
 
+   private java.util.Date dsadasdadasd;
+
    public Teste()
    {
    }
@@ -25,9 +27,20 @@ public class Teste implements java.io.Serializable
       this.dsdfsd = dsdfsd;
    }
 
-   public Teste(java.math.BigInteger dsdfsd)
+   public java.util.Date getDsadasdadasd()
+   {
+      return this.dsadasdadasd;
+   }
+
+   public void setDsadasdadasd(java.util.Date dsadasdadasd)
+   {
+      this.dsadasdadasd = dsadasdadasd;
+   }
+
+   public Teste(java.math.BigInteger dsdfsd, java.util.Date dsadasdadasd)
    {
       this.dsdfsd = dsdfsd;
+      this.dsadasdadasd = dsadasdadasd;
    }
 
 }
